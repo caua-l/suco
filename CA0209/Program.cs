@@ -11,14 +11,11 @@ namespace CA0209
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-          void Cliente.CadastrarSenha();
-=======
+            Cliente Roger = new Cliente();
+            Roger.CadastrarSenha();
             Pessoa Fernando = new Pessoa();
             Fernando.CadastrarNome();
             Fernando.ExibirNome(); 
-
->>>>>>> ace38c6eeb1cced35e3a3db1a105eeae5ae49006
         }
     }
 }
