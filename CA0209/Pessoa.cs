@@ -8,5 +8,12 @@ namespace CA0209
 {
     internal class Pessoa
     {
+        private string nome;
+
+
+        public void CadastrarNome(){
+            Console.WriteLine("Digite seu nome");
+            nome = Console.ReadLine();
+        }
     }
 }
