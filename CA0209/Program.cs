@@ -10,6 +10,9 @@ namespace CA0209
     {
         static void Main(string[] args)
         {
+            Pessoa Fernando = new Pessoa();
+            Fernando.CadastrarNome();
+            Fernando.ExibirNome(); 
 
         }
     }
